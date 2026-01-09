@@ -1,0 +1,391 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: Amol Bhuptani
+  headline:
+  location: London, UK
+  email: amolbhuptani@gmail.com
+  photo:
+  phone:
+  website:
+  social_networks:
+    - network: LinkedIn
+      username: amol-bhuptani
+    - network: GitHub
+      username: amolition
+  custom_connections:
+  sections:
+    Welcome to RenderCV:
+      - RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.
+      - See the [documentation](https://docs.rendercv.com) for more details.
+    education:
+      - institution: Imperial College London
+        area: Physics with Theoretical Physics
+        degree: BSc
+        date:
+        start_date: 2018-10
+        end_date: 2021-06
+        location: London, UK
+        summary:
+        highlights:
+          - "**1st Class Grade**"
+          - "Dean's List Prize in 1st and 2nd year -- awarded to top 10% of cohort"
+      - institution: University College London
+        area: Clinical Medicine
+        degree: MBBS
+        date:
+        start_date: 2014-10
+        end_date: 2017-06
+        location: London, UK
+        summary:
+        highlights:
+          - "**Pass with Merit in 5th Year**"
+          - "Six week elective in Rural Tanzanian Hospital"
+      - institution: University of Cambridge
+        area: Pre-Clinical Medicine with Neuroscience
+        degree: BA
+        date:
+        start_date: 2011-10
+        end_date: 2014-06
+        location: Cambridge, UK
+        summary:
+        highlights:
+          - "**2:1 Class Grade**"
+          - "1st class results in physiology and pharmacology"
+      - institution: Parmiter's School
+        area: A-Levels and GCSEs
+        degree:
+        date:
+        start_date: 2004-09
+        end_date: 2011-06
+        location: Garston, UK
+        summary:
+        highlights:
+          - "**A-Levels**: Biology A\\*, Chemistry A\\*, Physics A\\*, Maths A\\*, Further Maths A\\*"
+          - "**GCSEs**: 11 A\\*s and 1 A"
+    experience:
+      - company: Pictura Bio Ltd.
+        position: Full-Stack Software Developer
+        date:
+        start_date: 2023-07
+        end_date: 2025-10
+        location: Oxford, UK
+        summary:
+        highlights:
+          - Worked as sole software developer for small startup leveraging novel pathogen imaging techniques for rapid detection
+          - Built GUI client for device from scratch including visual design, user experience and creating unified API to interact with hardware SDK and machine learning code
+          - Developed internal app to catalogue research, visualise data and manage lab inventory
+          - Collaborated regularly with lab scientists, data scientists and hardware engineers to deliver the best software solutions
+          - Used diverse and modern tech stacks with CI/CD including technologies such as Vue, Svelte, Django, GraphQL, Postgres, SQLite, Rust, AWS, GCP and Docker
+      - company: Luminance Technologies Ltd.
+        position: Software Developer
+        date:
+        start_date: 2021-08
+        end_date: 2023-01
+        location: Cambridge, UK
+        summary:
+        highlights:
+          - Worked primarily as frontend web developer for rapidly growing AI Legal Tech company to maintain and expand user-interface of the core product (web based app)
+          - Also assisted with backend development including database management and API creation
+          - Gained experience in Backbone.js, Node.js, PostgreSQL, Express.js, and testing with Mocha
+          - Led project with team of 4-5 people to implement WCAG accessibility standards into app
+          - Mentored new employees, contributed to app visual design and organised company socials
+      - company: Northwick Park Hospital
+        position: Junior Doctor
+        date:
+        start_date: 2020-04
+        end_date: 2020-06
+        location: London, UK
+        summary:
+        highlights:
+          - Returned to work as a doctor in Intensive Care Unit to support NHS during first wave of COVID-19 pandemic
+          - Cared for critically unwell patients as part of multidisciplinary team in unprecedented circumstances
+      - company: John Radcliffe Hospital
+        position: Junior Doctor
+        date:
+        start_date: 2017-08
+        end_date: 2018-07
+        location: Oxford, UK
+        summary:
+        highlights:
+          - Worked as doctor with rotations in acute medicine, emergency surgery and psychiatry
+          - Managed patients’ care as part of multidisciplinary team
+          - Worked on-call shifts in evenings and overnight, acting as first medical response for deteriorating patients
+      - company: Ludwig-Maximillian University
+        position: Scientific Researcher Internship
+        date:
+        start_date: 2013-07
+        end_date: 2013-09
+        location: Munich, Germany
+        summary:
+        highlights:
+          - Gained place on fully funded, competitive summer research programme at a leading institution
+          - Performed original neurobiological research regarding the nervous system of tadpoles
+    projects:
+      - name: '[FlashInfer](https://github.com/)'
+        date:
+        start_date: 2023-01
+        end_date: present
+        location:
+        summary: Open-source library for high-performance LLM inference kernels
+        highlights:
+          - Achieved 2.8x speedup over baseline attention implementations on A100 GPUs
+          - Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors
+      - name: '[NeuralPrune](https://github.com/)'
+        date: '2021'
+        start_date:
+        end_date:
+        location:
+        summary: Automated neural network pruning toolkit with differentiable masks
+        highlights:
+          - Reduced model size by 90% with less than 1% accuracy degradation on ImageNet
+          - Featured in PyTorch ecosystem tools, 4,200+ GitHub stars
+    publications:
+      - title: 'Sparse Mixture-of-Experts at Scale: Efficient Routing for Trillion-Parameter Models'
+        authors:
+          - '*John Doe*'
+          - Sarah Williams
+          - David Park
+        summary:
+        doi: 10.1234/neurips.2023.1234
+        url:
+        journal: NeurIPS 2023
+        date: 2023-07
+      - title: Neural Architecture Search via Differentiable Pruning
+        authors:
+          - James Liu
+          - '*John Doe*'
+        summary:
+        doi: 10.1234/neurips.2022.5678
+        url:
+        journal: NeurIPS 2022, Spotlight
+        date: 2022-12
+      - title: Multi-Agent Reinforcement Learning with Emergent Communication
+        authors:
+          - Maria Garcia
+          - '*John Doe*'
+          - Tom Anderson
+        summary:
+        doi: 10.1234/icml.2022.9012
+        url:
+        journal: ICML 2022
+        date: 2022-07
+      - title: On-Device Model Compression via Learned Quantization
+        authors:
+          - '*John Doe*'
+          - Kevin Wu
+        summary:
+        doi: 10.1234/iclr.2021.3456
+        url:
+        journal: ICLR 2021, Best Paper Award
+        date: 2021-05
+    selected_honors:
+      - bullet: MIT Technology Review 35 Under 35 Innovators (2024)
+      - bullet: Forbes 30 Under 30 in Enterprise Technology (2024)
+      - bullet: ACM Doctoral Dissertation Award Honorable Mention (2023)
+      - bullet: Google PhD Fellowship in Machine Learning (2020 – 2023)
+      - bullet: Fulbright Scholarship for Graduate Studies (2018)
+    skills:
+      - label: Languages
+        details: Python, C++, CUDA, Rust, Julia
+      - label: ML Frameworks
+        details: PyTorch, JAX, TensorFlow, Triton, ONNX
+      - label: Infrastructure
+        details: Kubernetes, Ray, distributed training, AWS, GCP
+      - label: Research Areas
+        details: Neural architecture search, model compression, efficient inference, multi-agent RL
+    patents:
+      - number: Adaptive Quantization for Neural Network Inference on Edge Devices (US Patent 11,234,567)
+      - number: Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent 11,345,678)
+      - number: Hardware-Aware Neural Architecture Search Method (US Patent 11,456,789)
+    invited_talks:
+      - reversed_number: Scaling Laws for Efficient Inference — Stanford HAI Symposium (2024)
+      - reversed_number: Building AI Infrastructure for the Next Decade — TechCrunch Disrupt (2024)
+      - reversed_number: 'From Research to Production: Lessons in ML Systems — NeurIPS Workshop (2023)'
+      - reversed_number: "Efficient Deep Learning: A Practitioner's Perspective — Google Tech Talk (2022)"
+    any_section_title:
+      - You can use any section title you want.
+      - 'You can choose any entry type for the section: `TextEntry`, `ExperienceEntry`, `EducationEntry`, `PublicationEntry`, `BulletEntry`, `NumberedEntry`, or `ReversedNumberedEntry`.'
+      - Markdown syntax is supported everywhere.
+      - The `design` field in YAML gives you control over almost any aspect of your CV design.
+      - See the [documentation](https://docs.rendercv.com) for more details.
+design:
+  theme: classic
+  # page:
+  #   size: us-letter
+  #   top_margin: 0.7in
+  #   bottom_margin: 0.7in
+  #   left_margin: 0.7in
+  #   right_margin: 0.7in
+  #   show_footer: true
+  #   show_top_note: true
+  # colors:
+  #   body: rgb(0, 0, 0)
+  #   name: rgb(0, 79, 144)
+  #   headline: rgb(0, 79, 144)
+  #   connections: rgb(0, 79, 144)
+  #   section_titles: rgb(0, 79, 144)
+  #   links: rgb(0, 79, 144)
+  #   footer: rgb(128, 128, 128)
+  #   top_note: rgb(128, 128, 128)
+  # typography:
+  #   line_spacing: 0.6em
+  #   alignment: justified
+  #   date_and_location_column_alignment: right
+  #   font_family:
+  #     body: Source Sans 3
+  #     name: Source Sans 3
+  #     headline: Source Sans 3
+  #     connections: Source Sans 3
+  #     section_titles: Source Sans 3
+  #   font_size:
+  #     body: 10pt
+  #     name: 30pt
+  #     headline: 10pt
+  #     connections: 10pt
+  #     section_titles: 1.4em
+  #   small_caps:
+  #     name: false
+  #     headline: false
+  #     connections: false
+  #     section_titles: false
+  #   bold:
+  #     name: true
+  #     headline: false
+  #     connections: false
+  #     section_titles: true
+  # links:
+  #   underline: false
+  #   show_external_link_icon: false
+  # header:
+  #   alignment: center
+  #   photo_width: 3.5cm
+  #   photo_position: left
+  #   photo_space_left: 0.4cm
+  #   photo_space_right: 0.4cm
+  #   space_below_name: 0.7cm
+  #   space_below_headline: 0.7cm
+  #   space_below_connections: 0.7cm
+  #   connections:
+  #     phone_number_format: national
+  #     hyperlink: true
+  #     show_icons: true
+  #     display_urls_instead_of_usernames: false
+  #     separator: ''
+  #     space_between_connections: 0.5cm
+  # section_titles:
+  #   type: with_partial_line
+  #   line_thickness: 0.5pt
+  #   space_above: 0.5cm
+  #   space_below: 0.3cm
+  # sections:
+  #   allow_page_break: true
+  #   space_between_regular_entries: 1.2em
+  #   space_between_text_based_entries: 0.3em
+  #   show_time_spans_in:
+  #     - experience
+  # entries:
+  #   date_and_location_width: 4.15cm
+  #   side_space: 0.2cm
+  #   space_between_columns: 0.1cm
+  #   allow_page_break: false
+  #   short_second_row: true
+  #   summary:
+  #     space_above: 0cm
+  #     space_left: 0cm
+  #   highlights:
+  #     bullet: •
+  #     nested_bullet: •
+  #     space_left: 0.15cm
+  #     space_above: 0cm
+  #     space_between_items: 0cm
+  #     space_between_bullet_and_text: 0.5em
+  # templates:
+  #   footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+  #   top_note: '*LAST_UPDATED CURRENT_DATE*'
+  #   single_date: MONTH_ABBREVIATION YEAR
+  #   date_range: START_DATE – END_DATE
+  #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+  #   one_line_entry:
+  #     main_column: '**LABEL:** DETAILS'
+  #   education_entry:
+  #     main_column: |-
+  #       **INSTITUTION**, AREA
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     degree_column: '**DEGREE**'
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   normal_entry:
+  #     main_column: |-
+  #       **NAME**
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   experience_entry:
+  #     main_column: |-
+  #       **COMPANY**, POSITION
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   publication_entry:
+  #     main_column: |-
+  #       **TITLE**
+  #       SUMMARY
+  #       AUTHORS
+  #       URL (JOURNAL)
+  #     date_and_location_column: DATE
+locale:
+  language: english
+  # last_updated: Last updated in
+  # month: month
+  # months: months
+  # year: year
+  # years: years
+  # present: present
+  # month_abbreviations:
+  #   - Jan
+  #   - Feb
+  #   - Mar
+  #   - Apr
+  #   - May
+  #   - June
+  #   - July
+  #   - Aug
+  #   - Sept
+  #   - Oct
+  #   - Nov
+  #   - Dec
+  # month_names:
+  #   - January
+  #   - February
+  #   - March
+  #   - April
+  #   - May
+  #   - June
+  #   - July
+  #   - August
+  #   - September
+  #   - October
+  #   - November
+  #   - December
+settings:
+  current_date: '2026-01-08'
+  render_command:
+    design:
+    locale:
+    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []
