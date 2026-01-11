@@ -170,8 +170,8 @@ cv:
       - "*References are available on request*"
 design:
   theme: classic
-  # page:
-  #   size: us-letter
+  page:
+    size: a4
   #   top_margin: 0.7in
   #   bottom_margin: 0.7in
   #   left_margin: 0.7in
@@ -232,11 +232,11 @@ design:
   #     display_urls_instead_of_usernames: false
   #     separator: ''
   #     space_between_connections: 0.5cm
-  # section_titles:
+  section_titles:
   #   type: with_partial_line
   #   line_thickness: 0.5pt
-  #   space_above: 0.5cm
-  #   space_below: 0.3cm
+    space_above: 0.7cm
+    space_below: 0.5cm
   # sections:
   #   allow_page_break: true
   #   space_between_regular_entries: 1.2em
