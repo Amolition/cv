@@ -152,6 +152,8 @@ cv:
         details: Tailwind, Bootstrap, Less, Storybook
       - label: Machine Learning
         details: Regression Modelling, Neural Networks, Pytorch, Scikit-Learn
+      - label: CI/CD and Automation
+        details: Terraform, Ansible, Nix, GitLab CI, Github Actions, Jenkins
       - label: Infrastructure
         details: AWS, GCP, Proxmox, Docker, Podman, Debian/Ubuntu, NixOS, Self-Hosting
       - label: Networking
