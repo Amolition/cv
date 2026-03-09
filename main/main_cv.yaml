@@ -60,6 +60,16 @@ cv:
           - "**A-Levels**: Biology A\\*, Chemistry A\\*, Physics A\\*, Maths A\\*, Further Maths A\\*"
           - "**GCSEs**: 11 A\\*s and 1 A"
     experience:
+      - company: Self-Employed
+        position: Freelance Software Developer
+        date:
+        start_date: 2026-01
+        end_date: present
+        location: London, UK
+        summary:
+        highlights:
+          - Working as a versatile developer / consultant for small startups needing help with existing and new projects
+          - Developing maintainable and well-documented codebases for seamless integration into company infrastructure
       - company: Pictura Bio Ltd.
         position: Full-Stack Software Developer
         date:
@@ -190,7 +200,7 @@ design:
   #   footer: rgb(128, 128, 128)
   #   top_note: rgb(128, 128, 128)
   typography:
-    line_spacing: 0.8em
+    line_spacing: 0.75em
   #   alignment: justified
   #   date_and_location_column_alignment: right
   #   font_family:
