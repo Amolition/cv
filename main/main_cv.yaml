@@ -82,7 +82,7 @@ cv:
           - Built GUI client for device from scratch including visual design, user experience and creating unified API to interact with hardware SDK and machine learning code
           - Developed app to catalogue research, visualise data and manage lab inventory
           - Collaborated regularly with lab scientists, data scientists and hardware engineers to deliver the best software solutions tailored for bespoke use-cases
-          - Used diverse and modern tech stacks with CI/CD including technologies such as Vue, Sveltekit, Django, GraphQL, Postgres, SQLite, Rust, AWS, GCP and Docker
+          - Used diverse and modern tech stacks with CI/CD including technologies such as Typescript, Vue, Sveltekit, Python, Django, GraphQL, Postgres, SQLite, Rust, AWS, GCP and Docker
       - company: Luminance Technologies Ltd.
         position: Software Developer
         date:
@@ -155,7 +155,7 @@ cv:
       - label: Paradigms
         details: OOP, Functional, MVC, Asynchronous Programming, Test-Driven Development
       - label: Web Frameworks
-        details: Django, Sveltekit, Vue, React, Backbone, FastAPI, ExpressJS
+        details: Django, Sveltekit, Vue, React, NextJS, Backbone, FastAPI, ExpressJS
       - label: Test Frameworks
         details: Mocha/Chai, Vitest, Playwright, Cypress, Pytest
       - label: CSS Tools
